@@ -136,7 +136,7 @@ The below code does all the magic including the compilation during runtime and s
 Obviously if you recreate the function over and over again you will be hit with the runtime penalty of compiling those functions.
 
 ### What about a NuGet package?
-I need to learn on how to create one. The I will build one. For now its Github
+Please find it here https://www.nuget.org/packages/fs.UnionCaseLib/
 
 ### License
 MIT
