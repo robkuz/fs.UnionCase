@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>fs.UnionCaseLib</id>
+    <version>1.0.0</version>
+    <title>fs.UnionCaseLib</title>
+    <authors>robkuz</authors>
+    <owners>robkuz</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/robkuz/fs.UnionCase</projectUrl>
+    <iconUrl>https://github.com/robkuz/fs.UnionCase</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A small library for working with Discrimintate Unions in F#</description>
+    <copyright>Copyright 2016</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="bin/Debug/UnionCaseLib.dll" target="lib/net40/UnionCaseLib.dll" />
+  </files>
+</package>

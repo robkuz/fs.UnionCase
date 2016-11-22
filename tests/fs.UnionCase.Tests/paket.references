@@ -1,0 +1,7 @@
+FSharp.Quotations.Evaluator
+FSharp.Core
+
+group Test
+NUnit
+FsCheck
+NUnit.ConsoleRunner

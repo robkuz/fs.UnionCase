@@ -33,6 +33,7 @@ module UnionCase =
         Negative "1"    |> isNegative   |> Assert.IsTrue
         Negative "1"    |> isZero       |> Assert.IsFalse
 
+
     [<Test>]
     let ``check parametrized DU<_,_>``() =
         let isOne, isTwo = makeUnionCaseTest2<SomeDU2<_>>()
@@ -68,3 +69,12 @@ module UnionCase =
             | Four(x,y) -> x = 1 && y = "foo" 
             | _ -> false
         |> Assert.IsTrue
+
+    open FSharp.Quotations.Evaluator
+    let trx a = (a, "foo")
+    let expra () =
+        let e = <@ fun x -> trx x @>   
+        QuotationEvaluator.Evaluate <@ fun x -> trx x @>
+
+    let z = expra() 1
+    let y = expra() "s"

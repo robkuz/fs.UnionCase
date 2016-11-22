@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="6" result="Passed" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2016-11-22 11:17:13Z" end-time="2016-11-22 11:17:14Z" duration="0.519833">
+  <command-line><![CDATA["C:\Users\rober\Documents\Dropbox\projekte\fs.UnionCase\packages\test\NUnit.ConsoleRunner\tools\nunit3-console.exe" "--noheader" "--timeout=1200000" "--output=TestResults.xml" "--shadowcopy" "C:\Users\rober\Documents\Dropbox\projekte\fs.UnionCase\tests\fs.UnionCase.Tests\bin\Release\fs.UnionCase.Tests.dll" ]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="fs.UnionCase.Tests.dll" fullname="C:\Users\rober\Documents\Dropbox\projekte\fs.UnionCase\tests\fs.UnionCase.Tests\bin\Release\fs.UnionCase.Tests.dll" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-11-22 11:17:13Z" end-time="2016-11-22 11:17:14Z" duration="0.489029" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14">
+    <environment framework-version="3.5.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="C:\Users\rober\Documents\Dropbox\projekte\fs.UnionCase" machine-name="BIG-BOY" user="rober" user-domain="BIG-BOY" culture="de-DE" uiculture="de-DE" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="ShadowCopyFiles" value="True" />
+      <setting name="DefaultTimeout" value="1200000" />
+      <setting name="WorkDirectory" value="C:\Users\rober\Documents\Dropbox\projekte\fs.UnionCase" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="20" />
+    </settings>
+    <properties>
+      <property name="_PID" value="15896" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1008" name="Test" fullname="Test" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.472456" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14">
+      <test-suite type="TestSuite" id="0-1009" name="Robkuz" fullname="Test.Robkuz" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.469455" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14">
+        <test-suite type="TestSuite" id="0-1010" name="Util" fullname="Test.Robkuz.Util" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.466460" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14">
+          <test-suite type="TestFixture" id="0-1000" name="UnionCase" fullname="Test.Robkuz.Util.UnionCase" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" testcasecount="6" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.462847" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="14">
+            <test-case id="0-1003" name="check parametrized DU&lt;_,_&gt;" fullname="Test.Robkuz.Util.UnionCase.check parametrized DU&lt;_,_&gt;" methodname="check parametrized DU&lt;_,_&gt;" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="1241524003" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.354946" asserts="3" />
+            <test-case id="0-1004" name="check parametrized DU&lt;int,string,bool&gt;" fullname="Test.Robkuz.Util.UnionCase.check parametrized DU&lt;int,string,bool&gt;" methodname="check parametrized DU&lt;int,string,bool&gt;" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="1331906362" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.004557" asserts="6" />
+            <test-case id="0-1002" name="check simple DU" fullname="Test.Robkuz.Util.UnionCase.check simple DU" methodname="check simple DU" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="1890930920" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.001830" asserts="3" />
+            <test-case id="0-1006" name="create a UnionCase Value" fullname="Test.Robkuz.Util.UnionCase.create a UnionCase Value" methodname="create a UnionCase Value" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="214377022" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.010463" asserts="1" />
+            <test-case id="0-1001" name="fails if union case count != used fun count" fullname="Test.Robkuz.Util.UnionCase.fails if union case count != used fun count" methodname="fails if union case count != used fun count" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="32312190" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.065769" asserts="0">
+              <reason>
+                <message><![CDATA[]]></message>
+              </reason>
+            </test-case>
+            <test-case id="0-1005" name="get UnionCase Name" fullname="Test.Robkuz.Util.UnionCase.get UnionCase Name" methodname="get UnionCase Name" classname="Test.Robkuz.Util.UnionCase" runstate="Runnable" seed="464557428" result="Passed" start-time="2016-11-22 11:17:14Z" end-time="2016-11-22 11:17:14Z" duration="0.000391" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

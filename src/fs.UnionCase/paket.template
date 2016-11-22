@@ -1,0 +1,25 @@
+type project
+title
+    fs.UnionCase
+owners
+    robkuz
+authors 
+    robkuz
+projectUrl
+    https://github.com/[github-user]/fs.UnionCase
+iconUrl
+    https://raw.githubusercontent.com/[github-user]/fs.UnionCase/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/[github-user]/fs.UnionCase/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    fsharp
+summary
+    helper functions for DiscriminateUnions
+description
+    Description not set
+
+
