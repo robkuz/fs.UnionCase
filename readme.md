@@ -1,19 +1,19 @@
-#UnionCase-Library
+# UnionCase-Library
 A library of small helper functions to work with Discriminate Unions without the boilerplate code yet still with native speed.
 
-##Available Functions
+## Available Functions
 
-###makeUnionCaseTest2<'a> to makeUnionCaseTest9<'a>
+### makeUnionCaseTest2<'a> to makeUnionCaseTest9<'a>
 create test functions for a each case of the given Discriminate Union
 
-###unionCaseInfoByName<'a>
+### unionCaseInfoByName<'a>
 Get the UnionCaseInfo by name.
 
-###createUnionType<'a>
+### createUnionType<'a>
 Create a UnionCase by name and value(s)
 
-##Example Usage
-###makeUnionCaseTest2<'a> to makeUnionCaseTest9<'a>
+## Example Usage
+### makeUnionCaseTest2<'a> to makeUnionCaseTest9<'a>
 These are by far the most interesting functions as they take away a lot of boilerplate code when working with DUs and testing these. Usually you would write code like this
 
     type SomeDU3<'a,'b, 'c> = 
@@ -58,7 +58,7 @@ After you have done this you can easily use those functions as seen below.
     Five(1,"2", false)  |> isThree  |> Assert.IsFalse
         
 
-###unionCaseInfoByName<'a>
+### unionCaseInfoByName<'a>
 
     type SomeDU3<'a,'b, 'c> = 
         | Three of 'a
@@ -70,7 +70,7 @@ After you have done this you can easily use those functions as seen below.
 
 Please note that you dont need fully parametrize the target type
 
-###createUnionType<'a>
+### createUnionType<'a>
 
     type SomeDU3<'a,'b, 'c> = 
     | Three of 'a
@@ -87,7 +87,7 @@ Please note that you dont need fully parametrize the target type
 
 Please be aware, that the name is case sensitive and that all parameters need to be boxed. Again this type doesnt need to be parametrized.
 
-##Installation
+## Installation
 On MacOSX and Linux execute the following commands
 
     mono .packet/paket.exe install
@@ -95,7 +95,7 @@ On MacOSX and Linux execute the following commands
     
 Sadly (I mean luckily ;-) ) I dont work on Windows so I cant help you on that.
 
-##FAQ
+## FAQ
 ### Why do you fail instead of returning an Option on the `makeUnionCaseTest*` functions?
 The idea behind that is that you should instantiate those functions pretty close to the top of your program. Sort of closer to the compile time step instead of the runtime step. And as such I want your program to crash and burn if you do anything wrong instead of pretending that you have some test functions (wrapped in Options) that you can use later on.
 ### Type Inference 
